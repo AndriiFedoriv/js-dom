@@ -37,4 +37,4 @@ const options = {
 const showClock = () => clock.innerText = (new Date()).toLocaleTimeString("uk", options);
 setInterval(showClock, 1000);
 
-$('.click-me').click( () => $('img').toggle(3000) );
+$('.click-me').click( () => $('img').toggle(1000) );
