@@ -10,7 +10,7 @@ para.textContent = 'We hope you enjoyed the ride.';
 
 // Task - make 1000 paragraphs
 
- [...Array(10)].forEach( (_, i) => {
+ [...Array(3)].forEach( (_, i) => {
      const p = document.createElement('p');
      p.textContent = i + 1 + ' lorem ipsum...';
      sect.appendChild(p);
